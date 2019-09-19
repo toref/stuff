@@ -1,6 +1,8 @@
 {
 	"keys": [{
 		"kty": "RSA",
+		"use": "enc",
+		"key_ops": ["wrapKey", "encrypt"],
 		"e": "AQAB",
 		"kid": "O0CNW5I03FSEC95NI7NC130tPQXxhn2Pr6b5sPJh2eQa0EM6c",
 		"n": "sZPIusDf7yQnnhBkU9mu14VOO3Crui3b7rAf2KYeobURmXA17b1JX9jg0Cd-vgpmuyTrxBUSc-4b0-UPgSwGFqPWUpx08ExqrwPDOvFojBou2wlyq8bcy0Us-BfeCzSE5lMVdSXTXXXcNqu-qb22jCCCJALpxsArsboMOXsLedh3M4XNQ5XGAtRf7b--uTY5Dr9KLYyUvZKAnY04MKJPEO54YiIFM5DTAhNOms089jdMdx-URIKJjPU2-RpHG1u8LCG028RTIpPsNbRanuS5TAY_zlxDgb1hKJ36YbZENHLg9PXTBhdOMlU90DTLlfcbLTa-D7DgljAaWCuvzLPaGw"
