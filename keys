@@ -10,7 +10,7 @@
 		"kty": "RSA",
 		"e": "AQAB",
 		"use": "sig",
-		"kid": "R9CR79LCQP95A0R31OG513OmQ9qgG_Xng2Z2sR12gF_vARYbg",
+		"kid": "03IU4PFR9U4HWZVW9HBE13C9O0wTImC49Yqyytk_Qkr8KM0Hk",
 		"key_ops": [
 			"verify"
 		],
