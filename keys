@@ -1,5 +1,14 @@
 {
 	"keys": [{
+        "environment":"PROD",
+		"kty": "RSA",
+		"use": "enc",
+		"key_ops": ["wrapKey", "encrypt"],
+		"e": "AQAB",
+		"kid": "somekeyid",
+		"n": "sZPIusDf7yQnnhBkU9mu14VOO3Crui3b7rAf2KYeobURmXA17b1JX9jg0Cd-vgpmuyTrxBUSc-4b0-UPgSwGFqPWUpx08ExqrwPDOvFojBou2wlyq8bcy0Us-BfeCzSE5lMVdSXTXXXcNqu-qb22jCCCJALpxsArsboMOXsLedh3M4XNQ5XGAtRf7b--uTY5Dr9KLYyUvZKAnY04MKJPEO54YiIFM5DTAhNOms089jdMdx-URIKJjPU2-RpHG1u8LCG028RTIpPsNbRanuS5TAY_zlxDgb1hKJ36YbZENHLg9PXTBhdOMlU90DTLlfcbLTa-D7DgljAaWCuvzLPaGw"
+	}, {
+        "environment":"SANDBOX",
 		"kty": "RSA",
 		"use": "enc",
 		"key_ops": ["wrapKey", "encrypt"],
@@ -10,7 +19,7 @@
 		"kty": "RSA",
 		"e": "AQAB",
 		"use": "sig",
-		"kid": "03IU4PFR9U4HWZVW9HBE13C9O0wTImC49Yqyytk_Qkr8KM0Hk",
+		"kid": "R9CR79LCQP95A0R31OG513OmQ9qgG_Xng2Z2sR12gF_vARYbg",
 		"key_ops": [
 			"verify"
 		],
